@@ -41,7 +41,7 @@ namespace reportes.Controllers
             else
             {
                 con.Close(); 
-                return View();
+                return View("Error");
             }
             
         }
