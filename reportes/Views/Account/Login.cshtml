@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/_LayoutPage1.cshtml";
+}
+
+<h1>
+    
+</h1>
+<div class="main-agile"
+     >
+    @*<div class="alert-close"> </div>*@
+    <div class="content-wthree">
+        <div class="circle-w3layouts"></div>
+        @*<h2>Login</h2>*@
+        <img src="~/images/logo.png"  style="width:auto"/>
+        <form action="Verify" method="post">
+            <div class="inputs-w3ls">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <input type="text" name="Email" placeholder="Email" required="" />
+            </div>
+            <div class="inputs-w3ls">
+                <i class="fa fa-key" aria-hidden="true"></i>
+                <input type="password" name="Password" placeholder="Password" required="" />
+            </div>
+            <input type="submit" value="LOGIN">
+            <div class="wthree-text">
+                <ul>
+                    <li> <a href="#">Olvido password?</a> </li>
+                    <br><li> <a href="http://spm-ing.com">Volver</a> </li>
+                </ul>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="footer-w3l">
+    @*<p class="agileinfo"> &copy; 2019 <a href="http://w3layouts.com">W3layouts</a></p>*@
+</div>
+
